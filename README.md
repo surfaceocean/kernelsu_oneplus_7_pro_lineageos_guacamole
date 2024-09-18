@@ -6,8 +6,7 @@ A working KernelSU build for the OnePlus 7 Pro (codename Guacamole) on LineageOS
 
 # WARNING: After installation, OTA updates can only be applied using packages signed with Android test keys.
 
-# CAUTION: This build may potentially DAMAGE your device. Proceed at your own risk!
-
+# CAUTION: This build may potentially DAMAGE your device. Proceed at your own risk! Always make a backup before each update!
 
 # Installation
 This process is similar to the [official guide](https://wiki.lineageos.org/devices/guacamole/install/).
