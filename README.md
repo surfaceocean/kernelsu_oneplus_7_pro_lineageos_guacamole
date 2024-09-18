@@ -15,6 +15,7 @@ Remember to factory reset before and after the installation of [MindTheGapps](ht
 
 # Notice
 1. The build is updated weekly. I will mark the personally tested versions here.
+2. This device uses a non-GKI kernel, and KernelSU v0.9.5 is the last supported version for it.
 
 # Working versions
 - v20240918
