@@ -13,6 +13,9 @@ This process is similar to the [official guide](https://wiki.lineageos.org/devic
 
 Remember to factory reset before and after the installation of [MindTheGapps](https://wiki.lineageos.org/gapps/).
 
+After installation, all future updates must be performed through the built-in OTA updater using the latest .zip releases available here.
+
+
 # Notice
 1. I attempted to compile only the kernel boot.img and flashed it on the official LineageOS system, but I lost Wi-Fi and sound functionality. The only solution that works is to compile both the kernel boot.img and the entire system together. Can anyone explain why this happened?
 2. The build is updated weekly. I will mark the personally tested versions here.
