@@ -9,6 +9,9 @@ A working KernelSU build for the OnePlus 7 Pro (codename Guacamole) on LineageOS
 # CAUTION: This build may potentially DAMAGE your device. Proceed at your own risk! Always make a backup before each update!
 
 # Installation
+
+[Github releases](https://github.com/surfaceocean/kernelsu_oneplus_7_pro_lineageos_guacamole/releases)
+
 This process is similar to the [official guide](https://wiki.lineageos.org/devices/guacamole/install/).
 
 Remember to factory reset before and after the installation of [MindTheGapps](https://wiki.lineageos.org/gapps/).
