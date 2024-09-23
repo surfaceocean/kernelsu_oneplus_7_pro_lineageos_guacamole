@@ -24,3 +24,11 @@ After installation, all future updates must be performed through the built-in OT
 # Working versions
 - v20240918
 - v20240919
+
+# Source Code
+
+Disclaimer: This ROM contains no modifications to the LineageOS source code except for the inclusion of the KernelSU codebase. You can access the source code below:
+
+- [Lineageos](https://github.com/LineageOS/android)
+- [Kernel](https://github.com/LineageOS/android_kernel_oneplus_sm8150)
+- [KernelSU](https://github.com/tiann/KernelSU)
