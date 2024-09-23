@@ -27,6 +27,7 @@ The installation requires a factory reset and flashing of dtbo.img, vbmeta.img, 
 # Working versions
 - v20240918
 - v20240919
+- v20240923
 
 # Source Code
 
