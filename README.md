@@ -16,7 +16,7 @@ This process is similar to the [official guide](https://wiki.lineageos.org/devic
 
 Remember to factory reset before and after the installation of [MindTheGapps](https://wiki.lineageos.org/gapps/).
 
-The installation requires a factory reset and flashing of vbmeta.img, boot.img, and lineage-21.0.zip according to the official guide. After installation, all future updates must be performed through the built-in OTA updater using the latest .zip releases available here.
+The installation requires a factory reset and flashing of dtbo.img, vbmeta.img, boot.img, and lineage-21.0.zip according to the official guide. After installation, all future updates must be performed through the built-in OTA updater using the latest .zip releases available here.
 
 
 # Notice
