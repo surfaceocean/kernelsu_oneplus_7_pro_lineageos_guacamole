@@ -24,10 +24,6 @@ The installation requires a factory reset and flashing of dtbo.img, vbmeta.img, 
 2. The build is updated weekly. I will mark the personally tested versions here.
 3. This device uses a non-GKI kernel, and KernelSU v0.9.5 is the last supported version for it.
 
-# Working Versions
-- v20240918
-- v20240919
-- v20240923
 
 # Source Code
 
