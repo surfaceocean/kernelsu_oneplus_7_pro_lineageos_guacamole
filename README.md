@@ -18,11 +18,15 @@ Remember to factory reset before and after the installation of [MindTheGapps](ht
 
 The installation requires a factory reset and flashing of dtbo.img, vbmeta.img, boot.img, and lineage-21.0.zip according to the official guide. After installation, all future updates must be performed through the built-in OTA updater using the latest .zip releases available here.
 
+# How to Compile on Your Own
+1. Modify PHONE_ROOT DRIVER_ROOT(ROOT_PATH) to existing empty folder in build.sh and extract.sh. Make sure extract.sh is in DRIVER_ROOT(ROOT_PATH).
+2. Download the lastest LineageOS build for OnePlus 7 Pro [here](https://download.lineageos.org/devices/guacamole/builds). Save it to lineage.zip in DRIVER_ROOT(ROOT_PATH) in order to extract drivers.
+3. Run build.sh.
+4. The target builds are in $PHONE_ROOT/out/target/product/guacamole.
 
 # Notice
 1. I attempted to compile only the kernel boot.img and flashed it on the official LineageOS system, but I lost Wi-Fi and sound functionality. The only solution that works is to compile both the kernel boot.img and the entire system together. Can anyone explain why this happened?
-2. The build is updated weekly. I will mark the personally tested versions here.
-3. This device uses a non-GKI kernel, and KernelSU v0.9.5 is the last supported version for it.
+2. This device uses a non-GKI kernel, and KernelSU v0.9.5 is the last supported version for it.
 
 
 # Source Code
