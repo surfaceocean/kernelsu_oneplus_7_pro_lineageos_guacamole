@@ -35,9 +35,9 @@ breakfast guacamole
 
 cd $PHONE_ROOT/kernel/oneplus/sm8150
 curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.5
-sed -i '$a CONFIG_KPROBES=y' arch/arm64/configs/lineage_sm8150_defconfig
-sed -i '$a CONFIG_HAVE_KPROBES=y' arch/arm64/configs/lineage_sm8150_defconfig
-sed -i '$a CONFIG_KPROBE_EVENTS=y' arch/arm64/configs/lineage_sm8150_defconfig
+sed -i '$a CONFIG_KPROBES=y' arch/arm64/configs/vendor/oplus.config
+sed -i '$a CONFIG_HAVE_KPROBES=y' arch/arm64/configs/vendor/oplus.config
+sed -i '$a CONFIG_KPROBE_EVENTS=y' arch/arm64/configs/vendor/oplus.config
 
 cd $PHONE_ROOT
 breakfast guacamole 
